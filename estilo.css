@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+.logo{
+    width: 300px;
+    margin: 10px 70px 10px;
+    border-radius: 5px;
+    
+}
+
+nav {
+    
+    float: right;
+    
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+li{
+    flex: 1; /* Distribuye el espacio disponible de manera equitativa entre los elementos */
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 50px;
+    padding-right: 20px ;
+    
+}
+nav li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.contacto{
+    display: block;
+    background-color: red;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 30px;
+    
+
+}
+
+.contacto:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.li6{
+    margin-top: 30px;
+}
+
+.ima1{
+    
+    width: 480px;
+    height: 510px;
+    border-radius: 3px;
+}
+
+.container{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.card{
+    height: 500px;
+    margin: 50px;
+    
+    overflow: hidden;
+}
+
+.intro{
+    height: 60px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -305px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    opacity: 90%;
+}
+
+h1{
+    margin: 10px;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+span{
+    font-weight: bold;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 300px;
+    bottom: -310px;
+    background-color: black;
+}
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;  
+
+}
+
+
+/* 
+swiper*/
+.itemcarrusel{
+    background-color: rgb(0, 255, 0);
+    height: 200px;
+    position: relative;
+}
+
+
+
+.flechas{
+    
+ position: absolute;
+ height: 100%;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+#contett{
+    
+    height: 200px;
+    overflow: hidden;
+    
+    
+}
+
+
+.tarjeta1{
+    background-color: brown;
+    height: 100%;
+}
+
+.tarjeta2{
+    background-color: rgb(238, 255, 0);
+    height: 100%;
+}
+.tarjeta3{
+    background-color: rgb(255, 0, 242);
+    height: 100%;
+}
+
+.flechas a {
+    text-decoration: none;
+}
+
+.flechas i{
+color: rgb(255, 255, 255);
+font-size: xx-large;
+padding: 25px;
+
+}
+
+#contenedorpuntos{
+    
+    
+    display: flex;
+    justify-content: center;
+    
+}
+#contenedorpuntos a {
+    font-size: large;
+    margin: 30px;
+    color: white;
+}
+
+#contenedorpuntos a:hover{
+    color: yellow;
+}
+
+
+
+#contenedorpuntos {
+    
+    justify-content: center;
+     /* Ajusta el margen superior según sea necesario */
+  }
+  
+  #contett {
+    position: relative;
+  }
+  
+  #contenedorpuntos {
+    position: absolute;
+    bottom: 240px; /* Ajusta la distancia desde la parte inferior según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #contenedorpuntos a {
+    margin: 0 5px; /* Ajusta el margen lateral según sea necesario */
+  }
+  
+ 
+  
+  
